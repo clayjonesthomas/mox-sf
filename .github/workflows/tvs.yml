@@ -1,0 +1,10 @@
+name: TV displays
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  select-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Select the tvs-deployment branch when running this workflow.'
